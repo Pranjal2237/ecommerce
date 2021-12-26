@@ -1,0 +1,617 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato';
+    letter-spacing: 0.4px;
+}
+.a{
+    background-image: radial-gradient(#fff,#ffd6d6);
+    height: 100vh;
+    box-sizing: border-box;
+}
+.pa{
+    background-color: transparent;
+    height: auto;
+}
+.a .b,.pa .b{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.a .b .d,.pa .b .d{
+    display: flex;
+}
+.a .b .d ul,.pa .b .d ul{
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
+.a .b .d ul li,.pa .b .d ul li{
+    margin: 10px 7px;
+}
+.a .b .d ul li a,.pa .b .d ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: gray;
+}
+.a .e{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.a .la #d1{
+    box-shadow: 0 0 20px 10px black;
+    width:300px;
+    margin-top: 10%;
+    height: 350px;
+    padding: 10px 0px;
+    background-color: white;
+    overflow: hidden;
+}
+.a .la{
+    display: flex;
+    margin: 0px 100px;
+}
+.a .la .lb{
+    display: flex;
+    justify-content: space-around;
+}
+.a .la .lc{
+    display: flex;
+    margin-top: 60px;
+    left:0;
+}
+.a .la .lc div{
+    margin: 0px 5px;
+    text-align: center;
+}
+.ld{
+    padding: 10px 100px;
+}
+.a .la input{
+    width: 280px;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    outline: none;
+
+}
+.a .la #d1 .lb div{
+    position: relative;
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+.a .la #d1 .lb div::after{
+    content: '';
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: -100%;
+    position: absolute;
+    background-color: lightcoral;
+    transition: 0.25s;
+}
+.a .la #d1 .lb div:hover::after{
+    left:0;
+}
+.a .e #d1{
+    margin-bottom: 130px;
+}
+.a .e #d1 h1{
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+.a .e #d1 p{
+    width: 500px;
+    color: gray;
+    font-size: 17px;
+}
+ button{
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: rgba(255, 105, 180,0.7);
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+ button a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+ button:hover{
+    background-color: rgba(255, 105, 180,1);
+}
+ button:hover{
+    color: brown;
+}
+@media(max-width:700px){
+    .a .b,.pa .b{
+        flex-direction: column;
+        padding: 5px;
+    }
+    .a .b .d ul li,.pa .b .d ul li{
+        margin: 10px 5px;
+    }
+    .a .b .d ul li a,.pa .b .d ul li a{
+        font-size: 15px;
+    }
+    .a .e{
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+    .a .e div img{
+        width: 90%;
+    }
+    .a .e #d1 h1{
+        font-size: 30px;
+    }
+    .a .e #d1 p{
+        font-size: medium;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .a .e #d1 button{
+        margin-top: 15px;
+    }
+    .a .e #d1 button a{
+        font-size: 15px;
+    }
+    .a .la{
+        flex-direction: column;
+        margin: 5px;
+        align-items: center;
+    }
+    .a .la img{
+        width: 100%;
+    }
+    .a .la #d1{
+        height: 250px;
+    }
+    .a .la .lc{
+        margin-top: 30px;
+    }
+}
+.f{
+    margin: 30px 0px;
+    text-align: center;
+}
+.f .g{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 250px;
+}
+.f h2{
+    margin-top: 60px;
+}
+.f #d2,.f #d3{
+    position: relative;
+    padding:10px ;
+}
+.f #d2::after,.f #d3::after{
+    content: '';
+    background-image: linear-gradient(60deg,transparent,brown);
+    width: 10%;
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+}
+.f .g1{
+    display: flex;
+    justify-content: space-between;
+    margin:40px 100px;
+    align-items: flex-start;
+}
+.f .g1 #s1{
+    border: 1px solid lightcoral;
+    outline: none;
+}
+.f .j{
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 920px;
+}
+.f .h,.f .j{
+    margin: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.f .h .i,.f .j .k,.of .oh .oi{
+    transition: 0.5s;
+}
+.f .h .i:hover,.f .j .k:hover,.of .oh .oi:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px 5px lightcoral;
+}
+.f .p1{
+    text-align: left;
+    margin-left: 80px;
+}
+.f .p1 button{
+    padding: 15px;
+    margin-left: 10px;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.f .p1 button:hover{
+    background-color: lightcoral;
+    border-color: lightcoral;
+}
+@media(max-width:700px){
+    .f .g{
+        flex-direction: column;
+        margin: 10px;
+    }
+    .f .g div{
+        margin-top: 20px;
+    }
+    .f .h{
+        flex-direction: column;
+        margin: 10px;
+        margin-top: 50px;
+    }
+    .f .h .i{
+        margin: 0px 40px;
+        margin-top: 30px;
+    }
+    .f .h .i img{
+        width: 100%;
+    }
+    .f .j .k{
+        margin-top: 30px;
+    }
+    .f .j .k img{
+        width: 100%;
+    }
+    .f .j{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: auto;
+    }
+    .f .g1{
+
+        margin: 0px 20px;
+    }
+}
+.l{
+    background-image: radial-gradient(#fff,#ffd6d6);   
+}
+.l .m{
+    display: flex;
+    padding: 20px 120px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.l .m #d4{
+    margin-bottom: 50px;
+}
+.l .m #d4 p{
+    color: gray;
+    width: 700px;
+    margin: 30px 0px;
+}
+.l .m #d4 h1{
+    font-size: 60px;
+}
+@media(max-width:700px){
+    .l .m{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .l .m #d4{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .l .m img{
+        width: 100%;
+    }
+    .l .m #d4 h1{
+        font-size: 35px;
+    }
+    .l .m #d4 p{
+        width: 100%;
+    }
+}
+.n{
+    margin: 60px 0px;
+}
+.n .o{
+    margin: 0px 230px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.n .o p{
+    width: 200px;
+    font-size: 14px;
+}
+.n .o img{
+    border-radius: 50%;
+    margin-top: 25px;
+}
+.n .o div{
+    background-image: radial-gradient(#fff,#ffd6d6); 
+    padding: 15px;
+    border-radius: 20px;   
+    transition: 0.5s;
+}
+.n .o div:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 10px 5px lightcoral;
+}
+@media(max-width:700px){
+    .n{
+        margin: 30px 0px;
+    }
+    .n .o{
+        margin: 15% 10%;
+        flex-direction: column;
+    }
+    .n .o div{
+        margin: 10% 0;
+    }
+    .n .o p{
+        width: 100%;
+    }
+}
+.p{
+    margin: 80px;
+}
+.p .q{
+    margin: 0px 100px;
+}
+.p .q img{
+    margin: 0px 35px;
+    filter: grayscale(1);
+    transition-property: grayscale;
+    transition: 1s;
+}
+.p .q img:hover{
+    filter: grayscale(0);
+}
+@media(max-width:700px){
+    .p{
+        margin: 60px 0px;
+        text-align: center;
+    }
+    .p .q{
+        margin: 0;
+    }
+}
+.r{
+    background-color: black;
+    padding-bottom:30px ;
+}
+.r .s{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding-bottom: 15px;
+    border-bottom: 2px solid white;
+    margin: 0px 40px;
+}
+.r .s div{
+    margin-top: 10px;
+}
+.r .s div p{
+    width: 450px;
+    margin-top: 20px;
+}
+.r .s div ul{
+    list-style: none;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.r .s .t{
+    margin-top: 10px;
+    cursor: pointer;
+}
+@media(max-width:700px){
+    .r .s{
+        flex-direction: column;
+    }
+    .r .s div p{
+        width: 100%;
+        margin-top: 5px;
+    }
+    .r .s .t{
+        width: 40%;
+    }
+    .r .s div{
+        margin-top: 30px;
+    }
+    .r .s div ul{
+        margin-top: 5px;
+    }
+}
+.oa{
+    margin: 50px 190px;
+}
+.oa .ob{
+    display: flex;
+    justify-content: space-around;
+}
+.oa .ob .oe p{
+    width: 600px;
+    margin-top: 30px;
+}
+.oa .ob .oe #op1{
+    color: gray;
+    margin-top: 0;
+}
+.oa .ob .oe h1{
+    margin-top: 40px;
+    font-size: 50px;
+}.oa .ob .oe select{
+    display: block;
+    margin-top: 20px ;
+}
+.oa .ob .oe h2{
+    margin-top: 30px;
+}
+.oa .ob .oc .od img{
+    margin-left: 8px;
+}
+.oe input{
+    width: 50px;
+    height: 40px;
+}
+@media(max-width:700px){
+    .oa{
+        margin: 10px;
+    }
+    .oa .ob{
+        flex-direction: column;
+    }
+    .oa .ob img{
+        width: 20%;
+    }
+    .oa .ob #i1{
+        width: 100%;
+    }
+    .oa .ob .oe p{
+        width: 100%;
+    }
+    .oa .ob .oe h1{
+        font-size: 35px;
+    }
+}
+.of{
+    margin: 80px 100px;
+}
+.of .og{
+    display: flex;
+    justify-content: space-between;
+}
+.of .oh{
+    margin-top: 40px;
+}
+.of p{
+    color: gray;
+}
+.of .oh{
+    display: flex;
+    justify-content: space-around;
+}
+.of .oh .oi{
+    text-align: center;
+}
+@media(max-width:700px){
+    .of{
+        margin:50px 5px;
+    }
+    .of .oh{
+        flex-direction: column;
+        align-items: center;
+    }
+    .of .oh .oi{
+        margin-top: 20px;
+        width: 90%;
+    }
+    .of .oh .oi p{
+        width: 100%;
+    }
+}
+.sa{
+    margin-top: 80px;
+}
+.sa .sb{
+    margin: 0px 300px;
+}
+.sa table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding:5px ;
+}
+.sa .sb .sc{
+    display: flex;
+}
+.sa .sb .sc div h3{
+    margin-top: 40px;
+    color: darkorange;
+}
+.sa th{
+    background-color: darkorange;
+    text-align: left;
+    padding: 5px;
+}
+.sa .sb .sc div{
+    margin-left: 5px;
+}
+.sa .sb .sc div a{
+    text-decoration: none;
+}
+.sa .sb .sd{
+    text-align: right;
+}
+.se{
+    margin: 30px 300px;
+    margin-left: 850px;
+    margin-bottom: 50px;
+}
+.se table{
+    width: 100%;
+    border-collapse: collapse;
+    border-top: 3px solid darkorange;
+}
+.se th{
+    text-align: left;
+}
+.se td{
+    text-align: right;
+}
+.se #s2{
+    margin-left: 200px;
+}
+@media(max-width:700px){
+    .sa .sb{
+        margin: 0px 10px;
+    }
+    .sa .sb .sc img{
+        width: 35%;
+        height: 35%;
+    }
+    .sa .sb .sc  p{
+        display: none;
+        font-size: 13px;
+        width: 100%;
+    }
+    .sa .sb .sc div h3{
+        font-size: small;
+        margin-top: 20px;
+    }
+    .sa .sb table th{
+        font-size:10px ;
+    }
+    .sa input{
+        width: 20px;
+        height: 15px;
+    }
+    .sa .table{
+        width: 100%;
+    }
+    td{
+        width: auto;
+    }
+    .se{
+        margin: 30px 10px;
+    }
+    .se table{
+        margin:20px 0px ;
+    }
+}
